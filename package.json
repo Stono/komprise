@@ -23,6 +23,7 @@
     "test": "./node_modules/grunt/bin/grunt mochaTest"
   },
   "devDependencies": {
+    "deride": "^1.1.0",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-watch": "^1.0.0",
@@ -35,5 +36,9 @@
     "should": "^11.2.0"
   },
   "keywords": [],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "debug": "^2.6.3"
+  }
 }
