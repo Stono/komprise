@@ -1,0 +1,39 @@
+{
+  "name": "komprise",
+  "description": "A project scaffolding tool",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Stono/komprise",
+  "author": {
+    "name": "Karl Stoney",
+    "email": "me@karlstoney.com",
+    "url": "https://karlstoney.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Stono/komprise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stono/komprise/issues"
+  },
+  "main": "index",
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/grunt/bin/grunt mochaTest"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-notify": "0.4.5",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-jenkins-reporter": "^0.3.7",
+    "should": "^11.2.0"
+  },
+  "keywords": [],
+  "license": "Apache-2.0"
+}
