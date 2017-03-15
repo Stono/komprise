@@ -12,8 +12,8 @@ describe('Logger', () => {
       debug: debug
     });
   });
-  it('should write info messages', () => {
-    logger.info('testing');
+  it('should write log messages', () => {
+    logger.log('testing');
     mockConsole.expect.log.called.withArg('testing');
   });
   it('should write error messages', () => {
