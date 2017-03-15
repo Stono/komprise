@@ -19,6 +19,11 @@ describe('Exec', () => {
     });
   });
 
+  it('should init with default values', () => {
+    let e = new Exec();
+    e = undefined;
+  });
+
   describe('Sync', () => {
     it('should execute commands, and return the result', () => {
       let result = exec.commandSync('pwd');

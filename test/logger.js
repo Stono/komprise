@@ -12,6 +12,10 @@ describe('Logger', () => {
       debug: debug
     });
   });
+  it('should init with default values', () => {
+    let l = new Logger();
+    l = undefined;
+  });
   it('should write log messages', () => {
     logger.log('testing');
     mockConsole.expect.log.called.withArg('testing');
