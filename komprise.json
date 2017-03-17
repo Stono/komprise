@@ -1,0 +1,15 @@
+{
+  "basic": {
+    "provider": "gcp",
+    "stack": "test",
+    "email": "test@test.com",
+    "bucket": "test-terraform"
+  },
+  "providers": {
+    "gcp": {
+      "primaryZone": "europe-west1-c",
+      "projectName": "test",
+      "region": "europe-west1"
+    }
+  }
+}

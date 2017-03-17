@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+let program = require('commander');
+program
+  .version(require('../package.json').version)
+  .command('init', 'Initalise the configuration')
+  .parse(process.argv);

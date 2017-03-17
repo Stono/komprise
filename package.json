@@ -38,6 +38,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "colors": "1.1.2",
-    "debug": "2.6.3"
+    "commander": "^2.9.0",
+    "debug": "2.6.3",
+    "inquirer": "^3.0.6",
+    "lodash": "^4.17.4"
   }
 }
