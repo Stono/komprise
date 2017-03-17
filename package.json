@@ -20,7 +20,11 @@
     "node": ">= 7.0.0"
   },
   "scripts": {
-    "test": "./node_modules/grunt/bin/grunt mochaTest"
+    "test": "./node_modules/grunt/bin/grunt mochaTest",
+    "start": "node ./bin/komprise"
+  },
+  "bin": {
+    "komprise": "./bin/komprise"
   },
   "devDependencies": {
     "deride": "1.1.0",
