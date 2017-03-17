@@ -9,7 +9,11 @@
     "gcp": {
       "primaryZone": "europe-west1-c",
       "projectName": "test",
-      "region": "europe-west1"
+      "region": "europe-west1",
+      "additionalZones": [
+        "europe-west1-b",
+        "europe-west1-d"
+      ]
     }
   }
 }
