@@ -22,7 +22,7 @@ describe('Logger', () => {
   });
   it('should write error messages', () => {
     logger.error('testing');
-    mockConsole.expect.error.called.withArg('testing');
+    mockConsole.expect.error.called.withArg(/testing/);
   });
   it('should log debug to debug, not console', () => {
     logger.debug('testing');

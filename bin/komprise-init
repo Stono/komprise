@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 let Init = require('../lib/init');
 let init = new Init();
-init.config();
+init.basic()
+  .then(() => { return init.provider(); })
+  .then(() => { return init.save(); });
