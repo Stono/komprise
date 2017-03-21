@@ -8,4 +8,8 @@ let program = require('commander');
 program
   .version(version)
   .command('init', 'Initalise the configuration')
+
+
+  // need to remove these after testing
+  .command('tf', 'terraform')
   .parse(process.argv);

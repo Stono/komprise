@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+let Terraform = require('../lib/terraform');
+let config = require('../komprise.json');
+
+let tf = new Terraform({
+  project: 'peopledata-product-team',
+  stack: config.basic.stack
+});
+
+tf.configureRemoteState({
+  name: 'themodulename'
+}, (err, data) => {
+  console.log(err, data);
+  console.log('remote state configured');
+});
